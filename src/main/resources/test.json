@@ -1,0 +1,93 @@
+{
+  "content": "2020年上半年，中国石油称“遭遇前所未有的冲击和挑战”。油价下降、需求萎缩，大幅冲击了石油行业的中下游业务，炼油和销售业务板块亏损严重。展望全年，中国石油认为国际原油市场预计仍供过于求，国际油价反弹回升面临很大不确定性；国内成品油供应过剩态势加剧，天然气需求增速回落。\n",
+  "labelCategories": [
+    {
+      "id": 1,
+      "text": "zhuyu",
+      "color": "#DA1E28",
+      "borderColor": "#eee"
+    },
+    {
+      "id": 2,
+      "text": "bingyu",
+      "color": "#A66EFF",
+      "borderColor": "#eee"
+    }
+  ],
+  "labels": [
+    {
+      "id": 0,
+      "categoryId": 1,
+      "startIndex": 9,
+      "endIndex": 13
+    },
+    {
+      "id": 1,
+      "categoryId": 2,
+      "startIndex": 22,
+      "endIndex": 27
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "startIndex": 74,
+      "endIndex": 78
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
+      "startIndex": 80,
+      "endIndex": 86
+    }
+  ],
+  "connectionCategories": [
+    {
+      "itemId": "38f4478a4b87954cf8bc9b4d935e35c2",
+      "itemName": "zaocheng",
+      "itemSign": "cause",
+      "itemColor": "#A66EFF",
+      "itemType": "1",
+      "tagSetId": "e3d6bbcd1a86ded3487968726ea9ed71",
+      "creator": "yzgyhlw.yz-ida",
+      "accountId": "db17c52d-e75e-46a4-9a83-f2c7133c9ffc",
+      "createdTime": "2020-08-31 20:20:30",
+      "updatedTime": "2020-08-31 20:20:30",
+      "id": 0,
+      "selected": true,
+      "text": "zaocheng",
+      "color": "#A66EFF",
+      "borderColor": "#eee"
+    },
+    {
+      "itemId": "caae3a1fda35079901636a7cf21f0633",
+      "itemName": "shuyu",
+      "itemSign": "is",
+      "itemColor": "#DA1E28",
+      "itemType": "1",
+      "tagSetId": "e3d6bbcd1a86ded3487968726ea9ed71",
+      "creator": "yzgyhlw.yz-ida",
+      "accountId": "db17c52d-e75e-46a4-9a83-f2c7133c9ffc",
+      "createdTime": "2020-08-31 20:20:30",
+      "updatedTime": "2020-08-31 20:20:30",
+      "id": 3,
+      "selected": true,
+      "text": "shuyu",
+      "color": "#DA1E28",
+      "borderColor": "#eee"
+    }
+  ],
+  "connections": [
+    {
+      "id": 0,
+      "categoryId": 0,
+      "fromId": 0,
+      "toId": 1
+    },
+    {
+      "id": 1,
+      "categoryId": 3,
+      "fromId": 2,
+      "toId": 3
+    }
+  ]
+}

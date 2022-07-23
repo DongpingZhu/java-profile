@@ -1,0 +1,86 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '2.4.5'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'com.arenagod.gradle.MybatisGenerator' version '1.4'
+    id 'war'
+}
+
+group 'com.inspur'
+version '1.0-SNAPSHOT'
+
+repositories {
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    mavenCentral()
+}
+
+dependencies {
+    annotationProcessor 'org.projectlombok:lombok:1.18.2'
+    compileOnly('org.projectlombok:lombok:1.18.2')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile('com.alibaba:fastjson:1.2.54')
+    implementation ('com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.11.3')
+
+    compile('javax:javaee-api:8.0')
+    compile('org.apache.tomcat.embed:tomcat-embed-jasper')
+    providedCompile('javax.servlet:jstl')
+//    compile group: 'org.liquibase', name: 'liquibase-core', version: '3.10.0'
+    implementation group: 'io.netty', name: 'netty-all', version: '4.1.59.Final'
+    compile('commons-io:commons-io:2.4')
+    compile('org.apache.commons:commons-compress:1.8.1')
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
+
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    implementation 'org.springframework.boot:spring-boot-starter-aop'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    implementation 'org.springframework.boot:spring-boot-starter-security' // 加上这个依赖就会自动设置一个login起始页面(Auth服务器)
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springframework.boot:spring-boot-starter-quartz'
+    compile('mysql:mysql-connector-java:8.0.16')
+    compile('org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.4')
+//    compile('com.alibaba:druid-spring-boot-starter:1.1.10')
+//    compile('com.baomidou:mybatis-plus-boot-starter:3.4.0')
+    compile 'net.sourceforge.tess4j:tess4j:4.3.1'
+//    implementation group: 'org.bytedeco', name: 'javacv-platform', version: '1.5.5'  全家桶
+    implementation group: 'org.bytedeco', name: 'opencv-platform', version: '4.5.1-1.5.5'
+    implementation group: 'org.bytedeco', name: 'javacv', version: '1.5.5'
+//    implementation group: 'org.bytedeco', name: 'tesseract-platform', version: '4.1.1-1.5.5'
+    implementation group: 'dom4j', name: 'dom4j', version: '1.6.1'
+    implementation group: 'org.jdom', name: 'jdom', version: '2.0.2'
+    implementation group: 'cn.hutool', name: 'hutool-core', version: '5.7.3'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    //prometheus监控
+    compile('org.springframework.boot:spring-boot-starter-actuator')
+    compile('io.micrometer:micrometer-registry-prometheus')
+    compile('io.github.mweirauch:micrometer-jvm-extras:0.1.4')
+    compile('org.apache.httpcomponents:httpclient:4.5.6')
+    compile('org.apache.httpcomponents:httpcore:4.4.10')
+    //swagger2
+    compile('io.springfox:springfox-swagger2:2.7.0')
+    compile('io.springfox:springfox-swagger-ui:2.7.0')
+    implementation group: 'org.springframework.boot', name: 'spring-boot-configuration-processor'
+//    implementation 'org.springframework.boot:spring-boot-starter-amqp'
+//    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,135 @@
+---
+# 镜像信息
+replicaCount: 1
+
+ibot:
+  dialogBot:
+    datasource:
+      url: "mariadb-server"
+      port: "3306"
+      username: "root"
+      password: "123456aB"
+      database: "icp_ibot"
+    es:
+      enable: false
+      host: elasticsearch-client-headless.common.svc.cluster.local
+      port: 9200
+      username: "a"
+      password: "b"
+    name: "ibot"
+#    kkUserID: 9d448598-104d-4de8-815c-283a4fa4626a
+    kkUserID: %s
+    kkUserId: %s
+
+
+image:
+  imagePullSecrets: [ "service-registry" ]
+  csDialogBot:
+    name: ibp-ai/ibot/ibot-service
+    tag: 3.5.5
+  csDialogModules:
+    name: ibp-ai/ibot/ibot-modules
+    tag: 3.5.0
+  csDialogNlu:
+    name: ibp-ai/ibot/ibot-nlu
+    tag: 3.5.0
+  csDialogChat:
+    name: ibp-ai/ibot/ibot-chat
+    tag: 3.5.0
+  csDialogRc:
+    name: ibp-ai/ibot/ibot-rc
+    tag: 3.5.0
+  curl:
+    name: ibp-ai/ibot/curl
+    tag: 4.0.0
+  pullPolicy: Always
+
+global:
+  region: "cn-north-3"
+  isCanaryDeploy: false
+  protocol: https://
+  #docker多架构类型
+  arch: ""
+  #软反亲和和强制反亲和(preferred or required)
+  affinityType: "preferred"
+  # 生产环境镜像仓库地址
+  registry: "registry-cn-north-3.inspurcloud.cn"
+  # 测试环境镜像仓库地址
+  testregistry: "registry-cn-north-3.inspurcloud.cn"
+  webGatewayHosts: ["console-dev.yzh.inspur.com"]
+  apiGatewayHosts: ["service-dev.yzh.inspur.com"]
+  apiDomain: "service-dev.yzh.inspur.com" # 放在global
+  context: "http://service-dev.yzh.inspur.com/apistore/apis"
+  serviceDomain: "service-{{proxy_domain}}.{{base_domain}}"
+  consoleDomain: "console-{{proxy_domain}}.{{base_domain}}"
+  iam:
+    authorizationUrl: "https://auth-yunzhou-dev.inspurcloud.cn/auth/" #iam认证地址
+    serviceClient:
+      ibotYunzhou:
+        clientSecret: "495c06bb-33db-4c15-a88a-77c0b90e4ce3"
+        clientId: "ibot"
+
+  mysql:
+    host: mariadb-server
+    port: 3306
+    databasename: icp_ibot
+    username: root
+    password: 123456aB
+
+resources:
+  csDialogDemoWeb:
+    requests:
+      cpu: "2"
+      memory: "4Gi"
+    limits:
+      cpu: "3"
+      memory: "6Gi"
+  csDialogBot:
+    requests:
+      cpu: "3"
+      memory: "8Gi"
+    limits:
+      cpu: "6"
+      memory: "13Gi"
+  csDialogModules:
+    requests:
+      cpu: "1"
+      memory: "1Gi"
+    limits:
+      cpu: "2"
+      memory: "4Gi"
+  csDialogNlu:
+    requests:
+      cpu: "2"
+      memory: "4Gi"
+    limits:
+      cpu: "10"
+      memory: "10Gi"
+  csDialogRc:
+    requests:
+      cpu: "2"
+      memory: "2Gi"
+    limits:
+      cpu: "4"
+      memory: "4Gi"
+  csDialogChat:
+    requests:
+      cpu: "1"
+      memory: "1Gi"
+    limits:
+      cpu: "2"
+      memory: "2Gi"
+  csRedis:
+    requests:
+      cpu: "2"
+      memory: "8Gi"
+    limits:
+      cpu: "3"
+      memory: "10Gi"
+  csMysql:
+    requests:
+      cpu: "2"
+      memory: "8Gi"
+    limits:
+      cpu: "3"
+      memory: "10Gi"

@@ -1,0 +1,55 @@
+server:
+  port: 8080
+  servlet:
+    jsp:
+      init-parameters:
+        development: true
+
+spring:
+  security:
+    user:
+      name: test
+      password: test
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mybatis-demo?useUnicode=true&characterEncoding=UTF8&connectTimeout=10000&socketTimeout=100000&allowMultiQueries=true&useSSL=false&&serverTimezone=GMT
+    username: root
+    password: 123456
+    schema: classpath:schema.sql  #自动建表         表结构
+    data: classpath:data.sql  #  自动初始化数据     表数据
+    initialization-mode: always
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update  # update
+  servlet:
+    multipart:
+      max-request-size: 10MB
+      max-file-size: 10MB
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
+
+mybatis:
+  mapper-locations: classpath:com/test/mybatis/dao/*.xml
+  type-aliases-package: com.test.mybatis.bean
+
+management:
+  endpoint:
+    shutdown:
+      enabled: true
+
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  metrics:
+    export:
+      simple:
+        enabled: false
+    tags:
+      application: micrometer-test
+

@@ -1,0 +1,16 @@
+{
+  "tracks": [],
+  "shapes": [],
+  "tags": [],
+  "hards": [
+    {
+      "clientID": 9,
+      "frame": 1,
+      "itemStateHard": "1",
+      "group": 0
+    }
+  ],
+  "width": 443,
+  "height": 450,
+  "content": "http://10.110.26.164:9000/idas/be4d761e433c24fc8dafe127f3713c75/0a7339c42a1ac6dfa414eed28a70859b.jpg"
+}

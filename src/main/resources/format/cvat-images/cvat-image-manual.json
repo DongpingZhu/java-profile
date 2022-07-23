@@ -1,0 +1,1348 @@
+{
+  "version": "1.1",
+  "meta": {
+    "task": {
+      "id": "2",
+      "name": "video",
+      "size": "215",
+      "mode": "interpolation",
+      "overlap": "5",
+      "bugtracker": "",
+      "created": "2021-07-03 02:28:00.576512+00:00",
+      "updated": "2021-07-06 07:41:27.588833+00:00",
+      "start_frame": "0",
+      "stop_frame": "214",
+      "frame_filter": "",
+      "labels": {
+        "label": {
+          "name": "cat",
+          "color": "#6080c0",
+          "attributes": "\n                    "
+        },
+        "label": {
+          "name": "dog",
+          "color": "#406040",
+          "attributes": "\n                    "
+        }
+      },
+      "segments": {
+        "segment": {
+          "id": "2",
+          "start": "0",
+          "stop": "214",
+          "url": "http://10.110.26.165:31005/?id=2"
+        }
+      },
+      "owner": {
+        "username": "admin",
+        "email": ""
+      },
+      "assignee": "",
+      "original_size": {
+        "width": "320",
+        "height": "568"
+      }
+    },
+    "dumped": "2021-07-16 07:08:13.417952+00:00",
+    "source": "a.mp4"
+  },
+  "image": [
+    {
+      "id": "0",
+      "name": "frame_000000",
+      "width": "320",
+      "height": "568",
+      "box": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "67.38",
+        "ytl": "89.33",
+        "xbr": "112.60",
+        "ybr": "148.89",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "90.54,227.20;135.76,220.58;97.16,262.49;45.33,247.05;44.22,216.17",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "221.79,211.75;249.36,168.74;230.61,125.73;229.51,94.85;220.69,70.58",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "35.40,336.38;99.37,316.53;81.70,289.00;47.53,268.00",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "194.22",
+        "ytl1": "298.98",
+        "xbl1": "194.22",
+        "ybl1": "339.69",
+        "xtr1": "260.39",
+        "ytr1": "298.88",
+        "xbr1": "260.39",
+        "ybr1": "339.69",
+        "xtl2": "267.01",
+        "ytl2": "294.90",
+        "xbl2": "267.01",
+        "ybl2": "335.51",
+        "xtr2": "201.14",
+        "ytr2": "295.01",
+        "xbr2": "201.14",
+        "ybr2": "335.52",
+        "z_order": "0"
+      },
+      "tag": {
+        "label": "dog",
+        "source": "manual"
+      }
+    },
+    {
+      "id": "1",
+      "name": "frame_000001",
+      "width": "320",
+      "height": "568",
+      "box": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "67.38",
+        "ytl": "89.33",
+        "xbr": "112.60",
+        "ybr": "148.89",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "90.54,227.20;135.76,220.58;97.16,262.49;45.33,247.05;44.22,216.17",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "221.79,211.75;249.36,168.74;230.61,125.73;229.51,94.85;220.69,70.58",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "35.40,336.38;99.37,316.53;81.70,289.00;47.53,268.00",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "194.22",
+        "ytl1": "298.98",
+        "xbl1": "194.22",
+        "ybl1": "339.69",
+        "xtr1": "260.39",
+        "ytr1": "298.88",
+        "xbr1": "260.39",
+        "ybr1": "339.69",
+        "xtl2": "267.01",
+        "ytl2": "294.90",
+        "xbl2": "267.01",
+        "ybl2": "335.51",
+        "xtr2": "201.14",
+        "ytr2": "295.01",
+        "xbr2": "201.14",
+        "ybr2": "335.52",
+        "z_order": "0"
+      },
+      "box": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "73.03",
+        "ytl": "485.83",
+        "xbr": "307.29",
+        "ybr": "559.94",
+        "z_order": "0"
+      }
+    },
+    {
+      "id": "2",
+      "name": "frame_000002",
+      "width": "320",
+      "height": "568",
+      "box": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "67.38",
+        "ytl": "89.33",
+        "xbr": "112.60",
+        "ybr": "148.89",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "90.54,227.20;135.76,220.58;97.16,262.49;45.33,247.05;44.22,216.17",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "221.79,211.75;249.36,168.74;230.61,125.73;229.51,94.85;220.69,70.58",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "35.40,336.38;99.37,316.53;81.70,289.00;47.53,268.00",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "194.22",
+        "ytl1": "298.98",
+        "xbl1": "194.22",
+        "ybl1": "339.69",
+        "xtr1": "260.39",
+        "ytr1": "298.88",
+        "xbr1": "260.39",
+        "ybr1": "339.69",
+        "xtl2": "267.01",
+        "ytl2": "294.90",
+        "xbl2": "267.01",
+        "ybl2": "335.51",
+        "xtr2": "201.14",
+        "ytr2": "295.01",
+        "xbr2": "201.14",
+        "ybr2": "335.52",
+        "z_order": "0"
+      },
+      "box": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "73.03",
+        "ytl": "485.83",
+        "xbr": "307.29",
+        "ybr": "559.94",
+        "z_order": "0"
+      }
+    },
+    {
+      "id": "3",
+      "name": "frame_000003",
+      "width": "320",
+      "height": "568",
+      "box": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "67.38",
+        "ytl": "89.33",
+        "xbr": "112.60",
+        "ybr": "148.89",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "90.54,227.20;135.76,220.58;97.16,262.49;45.33,247.05;44.22,216.17",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "221.79,211.75;249.36,168.74;230.61,125.73;229.51,94.85;220.69,70.58",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "35.40,336.38;99.37,316.53;81.70,289.00;47.53,268.00",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "194.22",
+        "ytl1": "298.98",
+        "xbl1": "194.22",
+        "ybl1": "339.69",
+        "xtr1": "260.39",
+        "ytr1": "298.88",
+        "xbr1": "260.39",
+        "ybr1": "339.69",
+        "xtl2": "267.01",
+        "ytl2": "294.90",
+        "xbl2": "267.01",
+        "ybl2": "335.51",
+        "xtr2": "201.14",
+        "ytr2": "295.01",
+        "xbr2": "201.14",
+        "ybr2": "335.52",
+        "z_order": "0"
+      },
+      "box": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "73.03",
+        "ytl": "485.83",
+        "xbr": "307.29",
+        "ybr": "559.94",
+        "z_order": "0"
+      }
+    },
+    {
+      "id": "4",
+      "name": "frame_000004",
+      "width": "320",
+      "height": "568",
+      "box": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "67.38",
+        "ytl": "89.33",
+        "xbr": "112.60",
+        "ybr": "148.89",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "90.54,227.20;135.76,220.58;97.16,262.49;45.33,247.05;44.22,216.17",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "221.79,211.75;249.36,168.74;230.61,125.73;229.51,94.85;220.69,70.58",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "35.40,336.38;99.37,316.53;81.70,289.00;47.53,268.00",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "194.22",
+        "ytl1": "298.98",
+        "xbl1": "194.22",
+        "ybl1": "339.69",
+        "xtr1": "260.39",
+        "ytr1": "298.88",
+        "xbr1": "260.39",
+        "ybr1": "339.69",
+        "xtl2": "267.01",
+        "ytl2": "294.90",
+        "xbl2": "267.01",
+        "ybl2": "335.51",
+        "xtr2": "201.14",
+        "ytr2": "295.01",
+        "xbr2": "201.14",
+        "ybr2": "335.52",
+        "z_order": "0"
+      },
+      "box": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "73.03",
+        "ytl": "485.83",
+        "xbr": "307.29",
+        "ybr": "559.94",
+        "z_order": "0"
+      }
+    },
+    {
+      "id": "5",
+      "name": "frame_000005",
+      "width": "320",
+      "height": "568",
+      "box": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "67.38",
+        "ytl": "89.33",
+        "xbr": "112.60",
+        "ybr": "148.89",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "90.54,227.20;135.76,220.58;97.16,262.49;45.33,247.05;44.22,216.17",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "221.79,211.75;249.36,168.74;230.61,125.73;229.51,94.85;220.69,70.58",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "35.40,336.38;99.37,316.53;81.70,289.00;47.53,268.00",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "194.22",
+        "ytl1": "298.98",
+        "xbl1": "194.22",
+        "ybl1": "339.69",
+        "xtr1": "260.39",
+        "ytr1": "298.88",
+        "xbr1": "260.39",
+        "ybr1": "339.69",
+        "xtl2": "267.01",
+        "ytl2": "294.90",
+        "xbl2": "267.01",
+        "ybl2": "335.51",
+        "xtr2": "201.14",
+        "ytr2": "295.01",
+        "xbr2": "201.14",
+        "ybr2": "335.52",
+        "z_order": "0"
+      },
+      "box": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "73.03",
+        "ytl": "485.83",
+        "xbr": "307.29",
+        "ybr": "559.94",
+        "z_order": "0"
+      }
+    },
+    {
+      "id": "6",
+      "name": "frame_000006",
+      "width": "320",
+      "height": "568",
+      "box": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "67.38",
+        "ytl": "89.33",
+        "xbr": "112.60",
+        "ybr": "148.89",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "90.54,227.20;135.76,220.58;97.16,262.49;45.33,247.05;44.22,216.17",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "221.79,211.75;249.36,168.74;230.61,125.73;229.51,94.85;220.69,70.58",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "35.40,336.38;99.37,316.53;81.70,289.00;47.53,268.00",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "194.22",
+        "ytl1": "298.98",
+        "xbl1": "194.22",
+        "ybl1": "339.69",
+        "xtr1": "260.39",
+        "ytr1": "298.88",
+        "xbr1": "260.39",
+        "ybr1": "339.69",
+        "xtl2": "267.01",
+        "ytl2": "294.90",
+        "xbl2": "267.01",
+        "ybl2": "335.51",
+        "xtr2": "201.14",
+        "ytr2": "295.01",
+        "xbr2": "201.14",
+        "ybr2": "335.52",
+        "z_order": "0"
+      },
+      "box": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "73.03",
+        "ytl": "485.83",
+        "xbr": "307.29",
+        "ybr": "559.94",
+        "z_order": "0"
+      }
+    },
+    {
+      "id": "7",
+      "name": "frame_000007",
+      "width": "320",
+      "height": "568",
+      "box": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "67.38",
+        "ytl": "89.33",
+        "xbr": "112.60",
+        "ybr": "148.89",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "90.54,227.20;135.76,220.58;97.16,262.49;45.33,247.05;44.22,216.17",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "221.79,211.75;249.36,168.74;230.61,125.73;229.51,94.85;220.69,70.58",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "35.40,336.38;99.37,316.53;81.70,289.00;47.53,268.00",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "194.22",
+        "ytl1": "298.98",
+        "xbl1": "194.22",
+        "ybl1": "339.69",
+        "xtr1": "260.39",
+        "ytr1": "298.88",
+        "xbr1": "260.39",
+        "ybr1": "339.69",
+        "xtl2": "267.01",
+        "ytl2": "294.90",
+        "xbl2": "267.01",
+        "ybl2": "335.51",
+        "xtr2": "201.14",
+        "ytr2": "295.01",
+        "xbr2": "201.14",
+        "ybr2": "335.52",
+        "z_order": "0"
+      },
+      "box": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "73.03",
+        "ytl": "485.83",
+        "xbr": "307.29",
+        "ybr": "559.94",
+        "z_order": "0"
+      }
+    },
+    {
+      "id": "8",
+      "name": "frame_000008",
+      "width": "320",
+      "height": "568",
+      "box": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "67.38",
+        "ytl": "89.33",
+        "xbr": "112.60",
+        "ybr": "148.89",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "90.54,227.20;135.76,220.58;97.16,262.49;45.33,247.05;44.22,216.17",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "221.79,211.75;249.36,168.74;230.61,125.73;229.51,94.85;220.69,70.58",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "35.40,336.38;99.37,316.53;81.70,289.00;47.53,268.00",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "194.22",
+        "ytl1": "298.98",
+        "xbl1": "194.22",
+        "ybl1": "339.69",
+        "xtr1": "260.39",
+        "ytr1": "298.88",
+        "xbr1": "260.39",
+        "ybr1": "339.69",
+        "xtl2": "267.01",
+        "ytl2": "294.90",
+        "xbl2": "267.01",
+        "ybl2": "335.51",
+        "xtr2": "201.14",
+        "ytr2": "295.01",
+        "xbr2": "201.14",
+        "ybr2": "335.52",
+        "z_order": "0"
+      },
+      "box": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "73.03",
+        "ytl": "485.83",
+        "xbr": "307.29",
+        "ybr": "559.94",
+        "z_order": "0"
+      }
+    },
+    {
+      "id": "9",
+      "name": "frame_000009",
+      "width": "320",
+      "height": "568",
+      "box": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "67.38",
+        "ytl": "89.33",
+        "xbr": "112.60",
+        "ybr": "148.89",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "90.54,227.20;135.76,220.58;97.16,262.49;45.33,247.05;44.22,216.17",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "221.79,211.75;249.36,168.74;230.61,125.73;229.51,94.85;220.69,70.58",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "35.40,336.38;99.37,316.53;81.70,289.00;47.53,268.00",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "194.22",
+        "ytl1": "298.98",
+        "xbl1": "194.22",
+        "ybl1": "339.69",
+        "xtr1": "260.39",
+        "ytr1": "298.88",
+        "xbr1": "260.39",
+        "ybr1": "339.69",
+        "xtl2": "267.01",
+        "ytl2": "294.90",
+        "xbl2": "267.01",
+        "ybl2": "335.51",
+        "xtr2": "201.14",
+        "ytr2": "295.01",
+        "xbr2": "201.14",
+        "ybr2": "335.52",
+        "z_order": "0"
+      },
+      "box": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "73.03",
+        "ytl": "485.83",
+        "xbr": "307.29",
+        "ybr": "559.94",
+        "z_order": "0"
+      }
+    },
+    {
+      "id": "10",
+      "name": "frame_000010",
+      "width": "320",
+      "height": "568",
+      "box": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "67.38",
+        "ytl": "89.33",
+        "xbr": "112.60",
+        "ybr": "148.89",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "90.54,227.20;135.76,220.58;97.16,262.49;45.33,247.05;44.22,216.17",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "221.79,211.75;249.36,168.74;230.61,125.73;229.51,94.85;220.69,70.58",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "35.40,336.38;99.37,316.53;81.70,289.00;47.53,268.00",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "194.22",
+        "ytl1": "298.98",
+        "xbl1": "194.22",
+        "ybl1": "339.69",
+        "xtr1": "260.39",
+        "ytr1": "298.88",
+        "xbr1": "260.39",
+        "ybr1": "339.69",
+        "xtl2": "267.01",
+        "ytl2": "294.90",
+        "xbl2": "267.01",
+        "ybl2": "335.51",
+        "xtr2": "201.14",
+        "ytr2": "295.01",
+        "xbr2": "201.14",
+        "ybr2": "335.52",
+        "z_order": "0"
+      },
+      "box": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "73.03",
+        "ytl": "485.83",
+        "xbr": "307.29",
+        "ybr": "559.94",
+        "z_order": "0"
+      }
+    },
+    {
+      "id": "11",
+      "name": "frame_000011",
+      "width": "320",
+      "height": "568",
+      "box": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "67.38",
+        "ytl": "89.33",
+        "xbr": "112.60",
+        "ybr": "148.89",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "90.54,227.20;135.76,220.58;97.16,262.49;45.33,247.05;44.22,216.17",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "221.79,211.75;249.36,168.74;230.61,125.73;229.51,94.85;220.69,70.58",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "35.40,336.38;99.37,316.53;81.70,289.00;47.53,268.00",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "194.22",
+        "ytl1": "298.98",
+        "xbl1": "194.22",
+        "ybl1": "339.69",
+        "xtr1": "260.39",
+        "ytr1": "298.88",
+        "xbr1": "260.39",
+        "ybr1": "339.69",
+        "xtl2": "267.01",
+        "ytl2": "294.90",
+        "xbl2": "267.01",
+        "ybl2": "335.51",
+        "xtr2": "201.14",
+        "ytr2": "295.01",
+        "xbr2": "201.14",
+        "ybr2": "335.52",
+        "z_order": "0"
+      },
+      "box": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "73.03",
+        "ytl": "485.83",
+        "xbr": "307.29",
+        "ybr": "559.94",
+        "z_order": "0"
+      }
+    },
+    {
+      "id": "12",
+      "name": "frame_000012",
+      "width": "320",
+      "height": "568",
+      "box": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "67.38",
+        "ytl": "89.33",
+        "xbr": "112.60",
+        "ybr": "148.89",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "90.54,227.20;135.76,220.58;97.16,262.49;45.33,247.05;44.22,216.17",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "221.79,211.75;249.36,168.74;230.61,125.73;229.51,94.85;220.69,70.58",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "35.40,336.38;99.37,316.53;81.70,289.00;47.53,268.00",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "194.22",
+        "ytl1": "298.98",
+        "xbl1": "194.22",
+        "ybl1": "339.69",
+        "xtr1": "260.39",
+        "ytr1": "298.88",
+        "xbr1": "260.39",
+        "ybr1": "339.69",
+        "xtl2": "267.01",
+        "ytl2": "294.90",
+        "xbl2": "267.01",
+        "ybl2": "335.51",
+        "xtr2": "201.14",
+        "ytr2": "295.01",
+        "xbr2": "201.14",
+        "ybr2": "335.52",
+        "z_order": "0"
+      },
+      "box": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "73.03",
+        "ytl": "485.83",
+        "xbr": "307.29",
+        "ybr": "559.94",
+        "z_order": "0"
+      }
+    },
+    {
+      "id": "13",
+      "name": "frame_000013",
+      "width": "320",
+      "height": "568",
+      "box": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "67.38",
+        "ytl": "89.33",
+        "xbr": "112.60",
+        "ybr": "148.89",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "90.54,227.20;135.76,220.58;97.16,262.49;45.33,247.05;44.22,216.17",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "221.79,211.75;249.36,168.74;230.61,125.73;229.51,94.85;220.69,70.58",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "35.40,336.38;99.37,316.53;81.70,289.00;47.53,268.00",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "194.22",
+        "ytl1": "298.98",
+        "xbl1": "194.22",
+        "ybl1": "339.69",
+        "xtr1": "260.39",
+        "ytr1": "298.88",
+        "xbr1": "260.39",
+        "ybr1": "339.69",
+        "xtl2": "267.01",
+        "ytl2": "294.90",
+        "xbl2": "267.01",
+        "ybl2": "335.51",
+        "xtr2": "201.14",
+        "ytr2": "295.01",
+        "xbr2": "201.14",
+        "ybr2": "335.52",
+        "z_order": "0"
+      },
+      "box": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "73.03",
+        "ytl": "485.83",
+        "xbr": "307.29",
+        "ybr": "559.94",
+        "z_order": "0"
+      }
+    },
+    {
+      "id": "14",
+      "name": "frame_000014",
+      "width": "320",
+      "height": "568",
+      "box": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "67.38",
+        "ytl": "89.33",
+        "xbr": "112.60",
+        "ybr": "148.89",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "90.54,227.20;135.76,220.58;97.16,262.49;45.33,247.05;44.22,216.17",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "221.79,211.75;249.36,168.74;230.61,125.73;229.51,94.85;220.69,70.58",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "35.40,336.38;99.37,316.53;81.70,289.00;47.53,268.00",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "194.22",
+        "ytl1": "298.98",
+        "xbl1": "194.22",
+        "ybl1": "339.69",
+        "xtr1": "260.39",
+        "ytr1": "298.88",
+        "xbr1": "260.39",
+        "ybr1": "339.69",
+        "xtl2": "267.01",
+        "ytl2": "294.90",
+        "xbl2": "267.01",
+        "ybl2": "335.51",
+        "xtr2": "201.14",
+        "ytr2": "295.01",
+        "xbr2": "201.14",
+        "ybr2": "335.52",
+        "z_order": "0"
+      },
+      "box": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "73.03",
+        "ytl": "485.83",
+        "xbr": "307.29",
+        "ybr": "559.94",
+        "z_order": "0"
+      }
+    },
+
+    {
+      "id": "212",
+      "name": "frame_000212",
+      "width": "320",
+      "height": "568",
+      "box": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "67.38",
+        "ytl": "89.33",
+        "xbr": "112.60",
+        "ybr": "148.89",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "90.54,227.20;135.76,220.58;97.16,262.49;45.33,247.05;44.22,216.17",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "221.79,211.75;249.36,168.74;230.61,125.73;229.51,94.85;220.69,70.58",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "35.40,336.38;99.37,316.53;81.70,289.00;47.53,268.00",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "194.22",
+        "ytl1": "298.98",
+        "xbl1": "194.22",
+        "ybl1": "339.69",
+        "xtr1": "260.39",
+        "ytr1": "298.88",
+        "xbr1": "260.39",
+        "ybr1": "339.69",
+        "xtl2": "267.01",
+        "ytl2": "294.90",
+        "xbl2": "267.01",
+        "ybl2": "335.51",
+        "xtr2": "201.14",
+        "ytr2": "295.01",
+        "xbr2": "201.14",
+        "ybr2": "335.52",
+        "z_order": "0"
+      },
+      "box": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "73.03",
+        "ytl": "485.83",
+        "xbr": "307.29",
+        "ybr": "559.94",
+        "z_order": "0"
+      }
+    },
+    {
+      "id": "213",
+      "name": "frame_000213",
+      "width": "320",
+      "height": "568",
+      "box": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "67.38",
+        "ytl": "89.33",
+        "xbr": "112.60",
+        "ybr": "148.89",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "90.54,227.20;135.76,220.58;97.16,262.49;45.33,247.05;44.22,216.17",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "221.79,211.75;249.36,168.74;230.61,125.73;229.51,94.85;220.69,70.58",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "35.40,336.38;99.37,316.53;81.70,289.00;47.53,268.00",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "194.22",
+        "ytl1": "298.98",
+        "xbl1": "194.22",
+        "ybl1": "339.69",
+        "xtr1": "260.39",
+        "ytr1": "298.88",
+        "xbr1": "260.39",
+        "ybr1": "339.69",
+        "xtl2": "267.01",
+        "ytl2": "294.90",
+        "xbl2": "267.01",
+        "ybl2": "335.51",
+        "xtr2": "201.14",
+        "ytr2": "295.01",
+        "xbr2": "201.14",
+        "ybr2": "335.52",
+        "z_order": "0"
+      },
+      "box": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "73.03",
+        "ytl": "485.83",
+        "xbr": "307.29",
+        "ybr": "559.94",
+        "z_order": "0"
+      }
+    },
+    {
+      "id": "214",
+      "name": "frame_000214",
+      "width": "320",
+      "height": "568",
+      "box": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "149.74",
+        "ytl": "19.19",
+        "xbr": "303.80",
+        "ybr": "60.48",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "points": "252.97,219.30;294.27,217.71;283.15,254.24;254.56,254.24;235.50,232.01",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "points": "41.27,112.74;74.62,79.38;87.32,134.97;65.09,173.09",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "points": "96.85,220.73;174.67,254.08;200.09,247.73;220.73,296.97;230.26,373.20",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "68.27",
+        "ytl1": "435.24",
+        "xbl1": "68.27",
+        "ybl1": "487.55",
+        "xtr1": "176.26",
+        "ytr1": "435.14",
+        "xbr1": "176.26",
+        "ybr1": "487.55",
+        "xtl2": "187.06",
+        "ytl2": "430.00",
+        "xbl2": "187.06",
+        "ybl2": "482.21",
+        "xtr2": "79.07",
+        "ytr2": "430.00",
+        "xbr2": "79.07",
+        "ybr2": "482.21",
+        "z_order": "0"
+      },
+      "box": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "67.38",
+        "ytl": "89.33",
+        "xbr": "112.60",
+        "ybr": "148.89",
+        "z_order": "0"
+      },
+      "polygon": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "90.54,227.20;135.76,220.58;97.16,262.49;45.33,247.05;44.22,216.17",
+        "z_order": "0"
+      },
+      "polyline": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "221.79,211.75;249.36,168.74;230.61,125.73;229.51,94.85;220.69,70.58",
+        "z_order": "0"
+      },
+      "points": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "points": "35.40,336.38;99.37,316.53;81.70,289.00;47.53,268.00",
+        "z_order": "0"
+      },
+      "cuboid": {
+        "label": "dog",
+        "occluded": "0",
+        "source": "manual",
+        "xtl1": "194.22",
+        "ytl1": "298.98",
+        "xbl1": "194.22",
+        "ybl1": "339.69",
+        "xtr1": "260.39",
+        "ytr1": "298.88",
+        "xbr1": "260.39",
+        "ybr1": "339.69",
+        "xtl2": "267.01",
+        "ytl2": "294.90",
+        "xbl2": "267.01",
+        "ybl2": "335.51",
+        "xtr2": "201.14",
+        "ytr2": "295.01",
+        "xbr2": "201.14",
+        "ybr2": "335.52",
+        "z_order": "0"
+      },
+      "box": {
+        "label": "cat",
+        "occluded": "0",
+        "source": "manual",
+        "xtl": "73.03",
+        "ytl": "485.83",
+        "xbr": "307.29",
+        "ybr": "559.94",
+        "z_order": "0"
+      },
+      "tag": {
+        "label": "cat",
+        "source": "manual"
+      }
+    }
+
+  ]
+
+
+}

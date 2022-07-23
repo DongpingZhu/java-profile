@@ -1,0 +1,144 @@
+{
+  "content": "当地时间16日下午，日本自民党总裁菅义伟在当天的临时国会上经过众议院的首相指名选举，正式成为日本第99任首相，日本新内阁也将于当天成立。\n对此中国外交部发言人汪文斌在16日的例行记者会上表示，中方对菅义伟先生当选日本首相表示祝贺。据我了解，中国领导人也将向他致电祝贺。\n",
+  "labelCategories": [
+    {
+      "id": 2,
+      "text": "疾病",
+      "color": "#A66EFF",
+      "borderColor": "#eee",
+      "itemSign": "disease"
+    },
+    {
+      "id": 4,
+      "text": "症状",
+      "color": "#2186FB",
+      "borderColor": "#eee",
+      "itemSign": "symptom"
+    },
+    {
+      "id": 5,
+      "text": "持续时间",
+      "color": "#24A149",
+      "borderColor": "#eee",
+      "itemSign": "duration"
+    },
+    {
+      "id": 6,
+      "text": "身体部位",
+      "color": "#DA1E28",
+      "borderColor": "#eee",
+      "itemSign": "body"
+    }
+  ],
+  "labels": [
+    {
+      "id": 0,
+      "categoryId": 2,
+      "startIndex": 71,
+      "endIndex": 72
+    },
+    {
+      "id": 1,
+      "categoryId": 6,
+      "startIndex": 79,
+      "endIndex": 80
+    },
+    {
+      "id": 2,
+      "categoryId": 2,
+      "startIndex": 24,
+      "endIndex": 28
+    },
+    {
+      "id": 3,
+      "categoryId": 6,
+      "startIndex": 52,
+      "endIndex": 54
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "startIndex": 96,
+      "endIndex": 98
+    },
+    {
+      "id": 5,
+      "categoryId": 6,
+      "startIndex": 116,
+      "endIndex": 117
+    }
+  ],
+  "connectionCategories": [
+    {
+      "itemId": "3bdfa8d68b86b164d0e5696015beb002",
+      "itemName": "出现",
+      "itemSign": "occurred",
+      "itemColor": "#DA1E28",
+      "itemType": "1",
+      "tagSetId": "7a3729dee9fd16aadf77cde643147985",
+      "creator": "yzhshow",
+      "accountId": "bc72b8db-b5f2-4dd4-9a58-5aea621e1b9a",
+      "createdTime": "2021-01-19 15:01:19",
+      "updatedTime": "2021-01-19 15:01:19",
+      "id": 0,
+      "selected": true,
+      "text": "出现",
+      "color": "#DA1E28",
+      "borderColor": "#eee"
+    },
+    {
+      "itemId": "5e09e98d25ed3739531b1c597dee5d64",
+      "itemName": "造成",
+      "itemSign": "cause",
+      "itemColor": "#A66EFF",
+      "itemType": "1",
+      "tagSetId": "7a3729dee9fd16aadf77cde643147985",
+      "creator": "yzhshow",
+      "accountId": "bc72b8db-b5f2-4dd4-9a58-5aea621e1b9a",
+      "createdTime": "2021-01-19 15:01:19",
+      "updatedTime": "2021-01-19 15:01:19",
+      "id": 1,
+      "selected": true,
+      "text": "造成",
+      "color": "#A66EFF",
+      "borderColor": "#eee"
+    },
+    {
+      "itemId": "903c5a5674cb5aa9e82b6c4463864266",
+      "itemName": "持续",
+      "itemSign": "appearances",
+      "itemColor": "#2186FB",
+      "itemType": "1",
+      "tagSetId": "7a3729dee9fd16aadf77cde643147985",
+      "creator": "yzhshow",
+      "accountId": "bc72b8db-b5f2-4dd4-9a58-5aea621e1b9a",
+      "createdTime": "2021-01-19 15:01:19",
+      "updatedTime": "2021-01-19 15:01:19",
+      "id": 3,
+      "selected": true,
+      "text": "持续",
+      "color": "#2186FB",
+      "borderColor": "#eee"
+    }
+  ],
+  "connections": [
+    {
+      "id": 0,
+      "categoryId": 0,
+      "fromId": 0,
+      "toId": 1
+    },
+    {
+      "id": 1,
+      "categoryId": 3,
+      "fromId": 2,
+      "toId": 3
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "fromId": 4,
+      "toId": 5
+    }
+  ]
+}

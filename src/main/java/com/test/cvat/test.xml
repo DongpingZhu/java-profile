@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<annotations>
+<meta>
+    <task>
+        <owner>
+            <email></email>
+            <username>admin</username>
+        </owner>
+        <created>2021-07-03 02:28:00.576512+00:00</created>
+        <start_frame>0</start_frame>
+        <frame_filter></frame_filter>
+        <labels>
+            <label>
+                <color>#406040</color>
+                <name>dog</name>
+                <attributes>
+                </attributes>
+            </label>
+        </labels>
+        <segments>
+            <segment>
+                <stop>214</stop>
+                <start>0</start>
+                <id>2</id>
+                <url>http://10.110.26.165:31005/?id=2</url>
+            </segment>
+        </segments>
+        <mode>interpolation</mode>
+        <overlap>5</overlap>
+        <size>215</size>
+        <name>video</name>
+        <bugtracker></bugtracker>
+        <id>2</id>
+        <stop_frame>214</stop_frame>
+        <assignee></assignee>
+        <updated>2021-07-06 07:17:57.063550+00:00</updated>
+        <original_size>
+            <width>320</width>
+            <height>568</height>
+        </original_size>
+    </task>
+    <dumped>2021-07-06 07:18:03.450887+00:00</dumped>
+    <source>a.mp4</source>
+</meta>
+<track>
+    <cuboid>
+        <ytr1>435.14</ytr1>
+        <xtr1>176.26</xtr1>
+        <ytr2>430.00</ytr2>
+        <xtr2>79.07</xtr2>
+        <occluded>0</occluded>
+        <xbl2>187.06</xbl2>
+        <keyframe>1</keyframe>
+        <z_order>0</z_order>
+        <ybr1>487.55</ybr1>
+        <xbr1>176.26</xbr1>
+        <ybr2>482.21</ybr2>
+        <xbr2>79.07</xbr2>
+        <outside>0</outside>
+        <ybl1>487.55</ybl1>
+        <xbl1>68.27</xbl1>
+        <ybl2>482.21</ybl2>
+        <ytl1>435.24</ytl1>
+        <xtl1>68.27</xtl1>
+        <ytl2>430.00</ytl2>
+        <xtl2>187.06</xtl2>
+        <frame>214</frame>
+    </cuboid>
+    <id>9</id>
+    <label>cat</label>
+    <source>manual</source>
+</track>
+<version>1.1</version>
+</annotations>

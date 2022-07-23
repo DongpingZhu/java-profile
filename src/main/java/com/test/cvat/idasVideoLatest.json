@@ -1,0 +1,70 @@
+{
+  "tracks": [
+    {
+      "clientID": 3,
+      "frame": 353,
+      "label_id": "a22c31a610cb8ae9812f15d0542c19f3",
+      "group": 0,
+      "source": "manual",
+      "attributes": [],
+      "shapes": [
+        {
+          "type": "rectangle",
+          "occluded": false,
+          "z_order": 0,
+          "points": [
+            710,
+            495,
+            1120,
+            635
+          ],
+          "outside": false,
+          "attributes": [],
+          "frame": 353
+        }
+      ]
+    }
+  ],
+  "shapes": [
+    {
+      "type": "polygon",
+      "clientID": 1,
+      "occluded": false,
+      "z_order": 0,
+      "points": [
+        153.95068359375,
+        163.11328125,
+        235.93364197530718,
+        360.8371913580231,
+        313.09413580246746,
+        220.9837962962947,
+        332.3842592592573,
+        114.88811728394921
+      ],
+      "attributes": [],
+      "frame": 353,
+      "label_id": "a22c31a610cb8ae9812f15d0542c19f3",
+      "group": 0,
+      "source": "manual"
+    },
+    {
+      "type": "rectangle",
+      "clientID": 2,
+      "occluded": false,
+      "z_order": 0,
+      "points": [
+        551.25,
+        142.22216796875,
+        856.8055419921875,
+        274.16661071777344
+      ],
+      "attributes": [],
+      "frame": 353,
+      "label_id": "a22c31a610cb8ae9812f15d0542c19f3",
+      "group": 0,
+      "source": "manual"
+    }
+  ],
+  "tags": [],
+  "hards": []
+}

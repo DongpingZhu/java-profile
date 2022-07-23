@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    let socket;
+    if (window.WebSocket) {
+        socket = new WebSocket("ws://localhost:9000/hello");
+        socket.onmessage = function (msg) {
+            let response = document.getElementById("responseText");
+            response.value = response.value + '\n' + msg.data;
+        }
+        socket.onopen = function (msg) {
+            let response = document.getElementById("responseText");
+            response.value = "connect begin.....";
+        }
+        socket.onclose = function (msg) {
+            let response = document.getElementById("responseText");
+            response.value = response.value + '\n' + 'connect shut....'
+        }
+        socket.onerror = function (msg) {
+            let response = document.getElementById("responseText");
+            response.value = response.value + '\n' + 'connect error....'
+
+        }
+    } else {
+        alert("no websocket");
+    }
+
+    function send(msg) {
+        console.log(msg)
+        if (!socket) {
+            return;
+        }
+        if (socket.readyState == WebSocket.OPEN) {
+
+            socket.send(msg);
+        } else {
+            alert("connect no begin......")
+        }
+
+    }
+</script>
+
+<form onsubmit="return false">
+    <textarea name="message" style="height: 300px;width: 300px;"></textarea>
+    <input type="button" value="发送消息" onclick="send(this.form.message.value)">
+    <textarea id="responseText" style="width: 300px;height: 300px"></textarea>
+    <input type="button" value="清空内容" onclick="document.getElementById('responseText').value=''">
+</form>
+
+
+</body>
+</html>
