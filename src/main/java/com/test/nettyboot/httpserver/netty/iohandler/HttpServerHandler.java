@@ -19,17 +19,17 @@
  *                                                                                     *
  ***************************************************************************************
  */
-package com.farsunset.httpserver.netty.iohandler;
+package com.test.nettyboot.httpserver.netty.iohandler;
 
-import com.farsunset.httpserver.dto.Response;
-import com.farsunset.httpserver.netty.annotation.NettyHttpHandler;
-import com.farsunset.httpserver.netty.exception.IllegalMethodNotAllowedException;
-import com.farsunset.httpserver.netty.exception.IllegalPathDuplicatedException;
-import com.farsunset.httpserver.netty.exception.IllegalPathNotFoundException;
-import com.farsunset.httpserver.netty.handler.IFunctionHandler;
-import com.farsunset.httpserver.netty.http.NettyHttpRequest;
-import com.farsunset.httpserver.netty.http.NettyHttpResponse;
-import com.farsunset.httpserver.netty.path.Path;
+import com.test.nettyboot.httpserver.dto.Response;
+import com.test.nettyboot.httpserver.netty.annotation.NettyHttpHandler;
+import com.test.nettyboot.httpserver.netty.exception.IllegalMethodNotAllowedException;
+import com.test.nettyboot.httpserver.netty.exception.IllegalPathDuplicatedException;
+import com.test.nettyboot.httpserver.netty.exception.IllegalPathNotFoundException;
+import com.test.nettyboot.httpserver.netty.handler.IFunctionHandler;
+import com.test.nettyboot.httpserver.netty.http.NettyHttpRequest;
+import com.test.nettyboot.httpserver.netty.http.NettyHttpResponse;
+import com.test.nettyboot.httpserver.netty.path.Path;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;

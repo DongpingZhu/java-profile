@@ -1,19 +1,16 @@
 package com.test;
 
-import com.test.spring.framework.Component;
-import com.test.springbootevent.ApplicationStartingEventListener;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.SpringApplicationRunListener;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.context.event.ApplicationContextInitializedEvent;
-import org.springframework.boot.context.event.ApplicationEnvironmentPreparedEvent;
 import org.springframework.boot.web.servlet.ServletComponentScan;
-import org.springframework.context.ApplicationListener;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.context.annotation.Scope;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.scheduling.annotation.EnableScheduling;
-import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.TransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
@@ -28,6 +25,9 @@ import javax.sql.DataSource;
 @EnableAspectJAutoProxy
 public class Application {
     public static void main(String[] args){
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext();
+
 
         // 获取IOC容器：
         ConfigurableApplicationContext applicationContext = SpringApplication.run(Application.class, args);

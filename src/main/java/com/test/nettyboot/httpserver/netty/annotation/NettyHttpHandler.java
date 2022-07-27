@@ -19,7 +19,7 @@
  *                                                                                     *
  ***************************************************************************************
  */
-package com.farsunset.httpserver.netty.annotation;
+package com.test.nettyboot.httpserver.netty.annotation;
 
 import java.lang.annotation.*;
 

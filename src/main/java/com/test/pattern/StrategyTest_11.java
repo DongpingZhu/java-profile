@@ -3,7 +3,7 @@ package com.test.pattern;
 // 策略模式，有点面向接口编程的意思
 public class StrategyTest_11 {
     public static void main(String[] args) {
-        Context context = new Context(new OpAdd()); // 加
+        Context context = new Context(new OpAdd());// 加
         System.out.println(context.executeStrategy(10,5));
         context = new Context(new OpSubtract()); // 减
         System.out.println(context.executeStrategy(10,5));

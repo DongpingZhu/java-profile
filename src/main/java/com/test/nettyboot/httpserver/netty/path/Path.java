@@ -19,10 +19,10 @@
  *                                                                                     *
  ***************************************************************************************
  */
-package com.farsunset.httpserver.netty.path;
+package com.test.nettyboot.httpserver.netty.path;
 
 
-import com.farsunset.httpserver.netty.annotation.NettyHttpHandler;
+import com.test.nettyboot.httpserver.netty.annotation.NettyHttpHandler;
 
 public class Path {
     private String method;

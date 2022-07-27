@@ -19,10 +19,11 @@
  *                                                                                     *
  ***************************************************************************************
  */
-package com.farsunset.httpserver.netty.handler;
-import com.farsunset.httpserver.dto.Response;
-import com.farsunset.httpserver.netty.annotation.NettyHttpHandler;
-import com.farsunset.httpserver.netty.http.NettyHttpRequest;
+package com.test.nettyboot.httpserver.netty.handler;
+
+import com.test.nettyboot.httpserver.dto.Response;
+import com.test.nettyboot.httpserver.netty.annotation.NettyHttpHandler;
+import com.test.nettyboot.httpserver.netty.http.NettyHttpRequest;
 
 
 @NettyHttpHandler(path = "/request/body",method = "POST")

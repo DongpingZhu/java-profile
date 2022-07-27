@@ -4,7 +4,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.IOException;
 
-@WebServlet(urlPatterns = "/ser02")
+@WebServlet(name = "ser02",urlPatterns = "/ser02")
 public class MyServletJSP extends HttpServlet {
 
     // servlet最初的网页构建方式，以字符串的形式构建：即为第一代web开发；

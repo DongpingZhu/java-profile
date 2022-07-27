@@ -3,15 +3,14 @@ package com.test.spring.framework;
 public class BeanDefinition {
 
     private Class clazz;
-
     private String scope;
+
+    public BeanDefinition() {
+    }
 
     public BeanDefinition(Class clazz, String scope) {
         this.clazz = clazz;
         this.scope = scope;
-    }
-
-    public BeanDefinition() {
     }
 
     public Class getClazz() {

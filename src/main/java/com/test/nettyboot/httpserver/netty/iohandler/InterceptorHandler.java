@@ -19,9 +19,9 @@
  *                                                                                     *
  ***************************************************************************************
  */
-package com.farsunset.httpserver.netty.iohandler;
+package com.test.nettyboot.httpserver.netty.iohandler;
 
-import com.farsunset.httpserver.netty.http.NettyHttpResponse;
+import com.test.nettyboot.httpserver.netty.http.NettyHttpResponse;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;

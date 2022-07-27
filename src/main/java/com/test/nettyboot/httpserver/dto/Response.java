@@ -19,7 +19,7 @@
  *                                                                                     *
  ***************************************************************************************
  */
-package com.farsunset.httpserver.dto;
+package com.test.nettyboot.httpserver.dto;
 
 import com.google.gson.GsonBuilder;
 

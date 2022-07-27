@@ -19,9 +19,9 @@
  *                                                                                     *
  ***************************************************************************************
  */
-package com.farsunset.httpserver;
+package com.test.nettyboot.httpserver;
 
-import com.farsunset.httpserver.netty.annotation.NettyHttpHandler;
+import com.test.nettyboot.httpserver.netty.annotation.NettyHttpHandler;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;

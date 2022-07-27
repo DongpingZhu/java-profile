@@ -1,7 +1,6 @@
-package com.test.spring.zhu.service;
+package com.test.spring.test.service;
 
 import com.test.spring.framework.Component;
-import com.test.spring.framework.Scope;
 
 @Component("singletonBean")
 public class SingletonBean {

@@ -1,8 +1,8 @@
-package com.farsunset.httpserver.configuration;
+package com.test.nettyboot.httpserver.configuration;
 
-import com.farsunset.httpserver.netty.iohandler.InterceptorHandler;
-import com.farsunset.httpserver.netty.iohandler.FilterLogginglHandler;
-import com.farsunset.httpserver.netty.iohandler.HttpServerHandler;
+import com.test.nettyboot.httpserver.netty.iohandler.FilterLogginglHandler;
+import com.test.nettyboot.httpserver.netty.iohandler.HttpServerHandler;
+import com.test.nettyboot.httpserver.netty.iohandler.InterceptorHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -17,9 +17,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.event.ApplicationStartedEvent;
-import org.springframework.context.*;
+import org.springframework.context.ApplicationListener;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.event.ContextStartedEvent;
 import org.springframework.lang.NonNull;
 
 import javax.annotation.Resource;
@@ -46,7 +46,6 @@ public class NettyHttpServer implements ApplicationListener<ApplicationStartedEv
         applicationContext.addApplicationListener(future->{
             System.out.println("-------------------");
         });
-
 
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();

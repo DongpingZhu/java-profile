@@ -19,12 +19,12 @@
  *                                                                                     *
  ***************************************************************************************
  */
-package com.farsunset.httpserver.netty.handler;
+package com.test.nettyboot.httpserver.netty.handler;
 
 
-import com.farsunset.httpserver.dto.Response;
-import com.farsunset.httpserver.netty.annotation.NettyHttpHandler;
-import com.farsunset.httpserver.netty.http.NettyHttpRequest;
+import com.test.nettyboot.httpserver.dto.Response;
+import com.test.nettyboot.httpserver.netty.annotation.NettyHttpHandler;
+import com.test.nettyboot.httpserver.netty.http.NettyHttpRequest;
 
 @NettyHttpHandler(path = "/hello/world")
 public class HelloWorldHandler implements IFunctionHandler<String> {

@@ -19,11 +19,11 @@
  *                                                                                     *
  ***************************************************************************************
  */
-package com.farsunset.httpserver.netty.handler;
+package com.test.nettyboot.httpserver.netty.handler;
 
 
-import com.farsunset.httpserver.dto.Response;
-import com.farsunset.httpserver.netty.http.NettyHttpRequest;
+import com.test.nettyboot.httpserver.dto.Response;
+import com.test.nettyboot.httpserver.netty.http.NettyHttpRequest;
 
 public interface IFunctionHandler<T> {
     Response<T> execute(NettyHttpRequest request);

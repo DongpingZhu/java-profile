@@ -19,7 +19,7 @@
  *                                                                                     *
  ***************************************************************************************
  */
-package com.farsunset.httpserver.netty.exception;
+package com.test.nettyboot.httpserver.netty.exception;
 
 public class IllegalPathDuplicatedException extends Exception {
 }
